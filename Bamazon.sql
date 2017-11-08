@@ -10,8 +10,7 @@ CREATE TABLE IF NOT EXISTS `products` (
   PRIMARY KEY (`itemID`)
 ) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8;
 
--- data for table bamazon.products: ~10 rows (approximately)
-/*!40000 ALTER TABLE `products` DISABLE KEYS */;
+--  for table bamazon.products: ~10 rows (approximately)
 INSERT INTO `products` (`itemID`, `ProductName`, `DepartmentName`, `Price`, `StockQuantity`) VALUES
 	(1, 'Football', 'Sports', 59.99, 52),
 	(2, 'Baseball', 'Sports', 14.99, 100),
