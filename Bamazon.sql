@@ -1,5 +1,7 @@
 
+CREATE database Bamazon;
 
+USE Bamazon;
 -- For table bamazon.products
 CREATE TABLE IF NOT EXISTS `products` (
   `itemID` int(11) NOT NULL AUTO_INCREMENT,
@@ -21,4 +23,4 @@ INSERT INTO `products` (`itemID`, `ProductName`, `DepartmentName`, `Price`, `Sto
 	(7, 'Volleyball', 'Sports', 16.99, 23),
 	(8, 'Dodgeball', 'Sports', 19.99, 16),
 	(9, 'TennisRacket', 'Sports', 59.99, 14),
-	(10, 'BaseballGlove', 'Sports', 39.99, 25),
+	(10, 'BaseballGlove', 'Sports', 39.99, 25)
