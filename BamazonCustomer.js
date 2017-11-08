@@ -42,7 +42,7 @@ function selection() {
 			},
 		]).then(function (user) {
 
-			connection.query('SELECT * FROM products JOIN departments ON products.DepartmentName = departments.DepartmentName', function(err, res) {
+			connection.query('SELECT * FROM products', function(err, res) {
 		    	if (err) throw err;
 
 		    	if(res[user.itemNumber - 1].StockQuantity > user.howMany) {
