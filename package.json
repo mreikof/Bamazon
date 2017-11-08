@@ -1,0 +1,19 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "node simulation",
+  "main": "BamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mreikof/Bamazon.git"
+  },
+  "author": "mreikof",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mreikof/Bamazon/issues"
+  },
+  "homepage": "https://github.com/mreikof/Bamazon#readme"
+}
